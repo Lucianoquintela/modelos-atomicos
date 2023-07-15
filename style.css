@@ -1,48 +1,107 @@
-.conteiner {
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap: 15px;
-    
+main{
+     display:flex;
+     flex-direction:row;
+     flex-wrap:wrap;
+     justify-content:center;
+     gap: 15px;
 }
 
 .modelosAtomicos {
-    background-color:#58A4B0;
-    width:320px;
-    height:430px;
-    margin-bottom:30px;
-    
-}
+     background-color:#58A4B0;
+     width:320px;
+     height:430px;
+     margin-bottom:30px;  
+     border-radius:10px; 
+     transition: 0.2s ease-in-out;
+} 
 
 h1{
-    text-align:center;
-   
+     text-align:center;  
 }
+
 h2{
-    text-align:center;
+     text-align:center;
 }
 
 .imagensModelosAtomicos{
-    width:200px;
-    height:195px;
-    border-radius:10px;
-    margin: auto;
-    display: block;
+     width:200px;
+     height:195px;
+     border-radius:10px;
+     margin: auto;
+     display: block;
 }
+
 .imagemModelosBohreSchrödinger{
-width:220;
-height:195px;
-border-radius:10px;
-margin: auto;
-display: block;
+     width:220;
+     height:195px;
+     border-radius:10px;
+     margin: auto;
+     display: block;
 }
 
 .descricaoModelosAtomicos{
-    max-height: 80px;
+     max-height: 80px;
      overflow-y: scroll;
-     font-size: 14px;
+     font-size: 16px;
      padding-right: 10px;
      margin:10px;
- }
- 
+}
+
+
+
+span{
+    color:white;
+}
+
+ul {
+    list-style:none;
+}
+
+footer{
+    height:570px;
+    background-color:green;
+    justify-content:center;
+}
+     
+
+h{
+     text-align:center;  
+}
+
+.redeSociais {
+     cursor:pointer;
+    
+   
+}
+
+.sites {
+    cursor:pointer;
+}
+
+section {   
+     display:flex;
+     flex-direction:row;
+     flex-wrap:wrap;
+     justify-content:center;
+     gap: 15px;
+}
+
+.imagemFooter {
+    margin: auto;
+    display: block;
+}
+
+.descricaoFooter{  
+    padding:10px;   
+}
+
+a {
+    text-decoration: none;
+}
+
+.modelosAtomicos:hover {
+    	background-color: #96d9d6;
+	    transform: scale(1.05);
+}
+
+
